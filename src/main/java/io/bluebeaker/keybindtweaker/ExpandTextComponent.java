@@ -20,8 +20,8 @@ public class ExpandTextComponent {
         return CraftTweakerMC.getITextComponent(new TextComponentKeybind(keybind));
     }
     @ZenMethodStatic
-    public static ITextComponent fromScore(String name, String objective) {
-        return CraftTweakerMC.getITextComponent(new TextComponentScore(name, objective));
+    public static ITextComponent fromScore(String entityName, String objective) {
+        return CraftTweakerMC.getITextComponent(new TextComponentScore(entityName, objective));
     }
     @ZenMethodStatic
     public static ITextComponent fromSelector(String selector) {
